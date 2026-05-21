@@ -175,7 +175,7 @@ img {
 .project-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .project-card {
@@ -185,6 +185,7 @@ img {
   padding: 1.5rem;
   display: grid;
   gap: 1rem;
+  min-width: 0;
 }
 
 .project-card h3 {
@@ -240,6 +241,7 @@ img {
   max-height: 400px;
   width: auto;
   margin-bottom: 0.75rem;
+  object-fit: cover;
 }
 
 .no-color-link {
@@ -269,5 +271,13 @@ img {
   .nav-links {
     width: 100%;
     justify-content: space-between;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+  .section {
+    padding: 2rem 0;
   }
 }
