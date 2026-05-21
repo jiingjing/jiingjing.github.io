@@ -252,3 +252,22 @@ img {
   text-align: center;
   color: #7e7e7e;
 }
+
+@media (max-width: 900px) {
+  .profile-card,
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
