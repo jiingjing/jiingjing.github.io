@@ -1,6 +1,7 @@
 # Jing Portfolio
 
-Site available at `https://jiingjing.github.io/`.
+Site available at https://jiingjing.github.io/.
+
 This is a simple static portfolio site built for GitHub Pages.
 
 ## Repository structure
