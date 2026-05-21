@@ -144,6 +144,49 @@ p {
   letter-spacing: -0.03em;
 }
 
+.project-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #e7deff;
+  box-shadow: 0 18px 48px rgba(99, 75, 206, 0.08);
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.project-card p {
+  margin: 0;
+  color: #5f5676;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.project-card a {
+  color: #8c63ff;
+  text-decoration: none;
+  font-weight: 600;
+  align-self: start;
+}
+
+.project-thumbnail {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, #f4eeff 0%, #d7c5ff 100%);
+  border: 1px solid #e7deff;
+}
+
 .site-footer {
   padding: 2rem 0;
   text-align: center;
