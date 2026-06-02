@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jing | Biological Information Transfer in Python</title>
+    <meta
+      name="description"
+      content="Project detail page for Biological Information Transfer in Python."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="shared-header"></div>
+
+    <main class="project-page container">
+      <article class="project-detail">
+        <h1>Biological Information Transfer in Python</h1>
+        <p>
+          This project focuses on simulating the flow of biological information
+          using Python. It involves parsing and analysing genetic sequences,
+          simulating transcription and translation processes, and visualizing
+          the resulting proteins. The project is designed to provide insights
+          into the central dogma of molecular biology and the mechanisms of gene
+          expression. \n You can read more about the project code and
+          implementation details on the
+          <a href="https://github.com/jiingjing/Biological-Information-Transfer"
+            >github repository</a
+          >.
+        </p>
+        <h2>Motivation</h2>
+        <p>
+          In preparation for my future studies in cancer genomics and data
+          science, I completed MIT's
+          <a
+            href="https://openlearninglibrary.mit.edu/courses/course-v1:OCW+Pre-7.01+1T2020/about"
+            target="_blank"
+            >Getting up to Speed in Biology</a
+          >
+          on their Open Learning Library, and begun studying MIT's
+          <a
+            href="https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/"
+            target="_blank"
+            >Fundamentals of Biology</a
+          >
+          . I wanted to create a project that would allow me to apply what I had
+          learned in a practical way.
+        </p>
+        <h2>Description</h2>
+        <p>
+          I decided to create tools for biological computation (of information
+          transfer) written in Python. Users can interact with different
+          components of the central dogma (DNA replication, RNA transcription,
+          and translation) to understand how genetic information is processed in
+          living organisms. I also included other relevant sequencing utility
+          tools.
+        </p>
+        <p>
+          Features:
+            <ul class="detail-list">
+                <li>DNA/RNA sequence identification and validation</li>
+                <li>Base pairing of DNA/RNA sequences</li>
+                <li>Translation of RNA sequences to codons - accounting for reading frame and polarity</li>
+                <li>Translation of codons to amino acids</li>
+                <li>6-frame and 3-frame translation</li>
+                <li>GC content calculator</li>
+                <li>Information transfer pipeline: DNA replication, RNA synthesis, and protein synthesis</li>
+            </ul>
+        </p>
+        <h2>Technical Details</h2>
+        <p>
+          The project is built using Python and intentionally does not leverages libraries such as
+          Biopython. The code is structured to be modular and extensible, with the aim of making
+          it easy to add new features or modifications to existing ones.
+        </p>
+        <p>Unit tests (written using pytest) are automatically run on GitHub Actions.</p>
+
+        <a class="button" href="projects.html">Back to projects</a>
+      </article>
+    </main>
+
+    <footer class="site-footer container">
+      <p>Made with JavaScript, HTML, and CSS 💻</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
