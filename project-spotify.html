@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jing | Spotify Analytics</title>
+    <meta
+      name="description"
+      content="Project detail page for Spotify Analytics."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="shared-header"></div>
+
+    <main class="project-page container">
+      <article class="project-detail">
+        <h1>Spotify Analytics</h1>
+        <p>
+          This project focuses on analysing a user's personal Spotify data to generate insights and visualisations. It involves processing large real-world data and creating an interactive dashboard. The project is designed to demonstrate data science techniques in a real-world context. </p>
+        <p>
+          You can read more about the project code and implementation details on the
+          <a href="https://github.com/jiingjing/Spotify-Noted"
+            >github repository</a
+          >.
+        </p>
+
+        <h2>Features</h2>
+        <p>
+            <ul class="detail-list">
+                <li>Python pipeline to import Spotify Extended Streaming History JSON files to analyse listening trends</li>
+                <li>Python pipeline to import Spotify Account Data (Your Library) to identify saved songs from your library</li>
+                <li>Python pipeline to load and store processed data in a MySQL database for efficient querying and management</li>
+                <li>Generation of an interactive data app, using Streamlit, displaying key listening statistics and trends</li>
+            </ul>
+        </p>
+        <h2>Technologies & Tools</h2>
+        <p>
+            <ul class="detail-list">
+                <li>Python</li>
+                <li>Streamlit</li>
+                <li>MySQL</li>
+                <li>Plotly</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>DBeaver</li>
+            </ul>
+        </p>
+        <h2>Dashboard App</h2>
+        <p>
+            <ul class="detail-list">
+                <li>Interactive dashboard data app built with Streamlit to display key listening statistics and trends</li>
+                <li>Visualisations include top artists, top tracks, listening trends over time, and more</li>
+                <li>Users can filter data by time range and other parameters to explore their listening habits</li>
+                <li>Design is motivated by the idea of a user's listening history as a memoir</li>
+            </ul>
+        </p>
+        <p>Screenshots:</p>
+        <img
+          class="project-photo-spotify"
+          src="./static/spotify-home.png"
+          alt="Spotify dashboard screenshot of Home page"
+        />
+        <img
+          class="project-photo-spotify"
+          src="./static/spotify-toc.png"
+          alt="Spotify dashboard screenshot of Table of Contents page"
+        />
+        <img
+          class="project-photo-spotify"
+          src="./static/spotify-chapter-4.png"
+          alt="Spotify dashboard screenshot of Chapter IV page"
+        />
+        <img
+          class="project-photo-spotify"
+          src="./static/spotify-appendix-b.png"
+          alt="Spotify dashboard screenshot of Appendix B page"
+        />
+        <img
+          class="project-photo-spotify"
+          src="./static/spotify-appendix-d.png"
+          alt="Spotify dashboard screenshot of Appendix D page"
+        />
+
+        <a class="button" href="projects.html">Back to projects</a>
+      </article>
+    </main>
+
+    <footer class="site-footer container">
+      <p>Made with JavaScript, HTML, and CSS 💻</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

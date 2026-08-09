@@ -236,10 +236,18 @@ img {
   margin-bottom: 0.75rem;
 }
 
-.project-photo {
+.project-photo-lua {
   height: 100%;
   max-height: 400px;
   width: auto;
+  margin-bottom: 0.75rem;
+  object-fit: cover;
+}
+
+.project-photo-spotify {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
   margin-bottom: 0.75rem;
   object-fit: cover;
 }
